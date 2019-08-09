@@ -134,7 +134,8 @@
   }
   .masthead h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 2rem;
+    color: #cbcbcb;
   }
 }
 
@@ -173,7 +174,7 @@
 }
 
 .about-section p {
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 .skill{
   text-align: center;
@@ -205,6 +206,9 @@
 .skill{
   padding-top: 9px;
   font-size: 4vw;
+}
+.about-section-padding{
+  padding-bottom: 16rem;
 }
 
 @media (min-width: 992px) {
@@ -303,6 +307,7 @@
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
+  background-color: #161616
 }
 
 a {
@@ -335,6 +340,12 @@ footer {
 .info-size {
   max-width: 300px;
   height: auto;
+}
+.resume{
+  font-size: 35px
+}
+.contain-bg{
+  background-color: #161616;
 }
 @media(max-width: 1000px){
   .img-size{
