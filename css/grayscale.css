@@ -180,15 +180,31 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 6rem 0;
 }
 
 .projects-section .featured-text {
   padding: 2rem;
 }
 
-.react{
-  font-size: 2em;
+.icon-size{
+  text-align: center;
+  
+}
+.img-size{
+  max-width: 70px;
+  height: auto;
+}
+.skills-container{
+  max-height: 250px;
+  padding-top: 15px;
+}
+.icon-bg{
+  background-color: white;
+}
+.skill{
+  padding-top: 9px;
+  font-size: 4vw;
 }
 
 @media (min-width: 992px) {
@@ -212,10 +228,14 @@
     border-width: .25rem;
     width: 30%;
   }
+  .skill{
+    font-size: 18px;
+  }
+  
 }
 
 .signup-section {
-  padding: 10rem 0;
+  padding: 3rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/abstract-bg.jpg");
   background-position: center;
@@ -237,7 +257,7 @@
 }
 
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 9rem 0 0;
 }
 
 .contact-section .card {
@@ -264,8 +284,8 @@
 
 .contact-section .social a {
   text-align: center;
-  height: 3rem;
-  width: 3rem;
+  height: 5rem;
+  width: 5rem;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
   line-height: 3rem;
@@ -308,4 +328,32 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+.info-icon{
+  font-size: 50px;
+}
+.info-size {
+  max-width: 300px;
+  height: auto;
+}
+@media(max-width: 1000px){
+  .img-size{
+    max-width: 59px;
+    height: auto;
+  }
+  .skill{
+    font-size: 1.7vw;
+  }
+}
+@media (max-width: 560px){
+  .img-size{
+    max-width: 50px;
+    height: auto;
+  }
+  .skill {
+    font-size: 3vw;
+  }
+  .info-icon{
+    font-size: 10vw;
+  }
 }
