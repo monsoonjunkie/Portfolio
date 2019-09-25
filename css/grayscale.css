@@ -348,6 +348,11 @@ footer {
 .contain-bg{
   background-color: #161616;
 }
+.skill-container{
+  background: white;
+  height: 70px;
+  width: 75px;
+}
 @media(max-width: 1000px){
   .img-size{
     max-width: 59px;
